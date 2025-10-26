@@ -1,4 +1,4 @@
-import abdelrahman from "../images/abdo.jpg";
+//import abdelrahman from "../images/abdo.jpg";
 import Social from "@/components/Social";
 
 function HomeComponent() {
@@ -6,11 +6,10 @@ function HomeComponent() {
     <div className="h-[80vh] flex justify-center p-4">
       <div className="w-80 h-75 mx-auto bg-black rounded-[50%] relative font-mono">
         <img
-          src="/My-portfolio-main/abdo.jpg"
-          alt="abdelrahman ramadan"
-          className="rounded-[50%] mx-auto w-80 h-70 animate-wave"
-        />
-
+  src={`${import.meta.env.BASE_URL}images/abdo.jpg`}
+  alt="Abdelrahman Ramadan"
+  className="rounded-[50%] mx-auto w-80 h-70 animate-wave"
+/>
         <div className="animate-bounce">
           <svg
             xmlns="http://www.w3.org/2000/svg"
