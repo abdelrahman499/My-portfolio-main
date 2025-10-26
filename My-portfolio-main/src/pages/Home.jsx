@@ -6,7 +6,7 @@ function HomeComponent() {
     <div className="h-[80vh] flex justify-center p-4">
       <div className="w-80 h-75 mx-auto bg-black rounded-[50%] relative font-mono">
         <img
-          src={abdelrahman}
+          src="/My-portfolio-main/abdo.jpg"
           alt="abdelrahman ramadan"
           className="rounded-[50%] mx-auto w-80 h-70 animate-wave"
         />
