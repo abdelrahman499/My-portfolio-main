@@ -7,9 +7,11 @@ function HomeComponent() {
       <div className="w-80 h-75 mx-auto bg-black rounded-[50%] relative font-mono">
         <img
   src={`${import.meta.env.BASE_URL}images/abdo.jpg`}
+onError={(e) => (e.target.src = "images/abdo.jpg")}
   alt="Abdelrahman Ramadan"
   className="rounded-[50%] mx-auto w-80 h-70 animate-wave"
 />
+
         <div className="animate-bounce">
           <svg
             xmlns="http://www.w3.org/2000/svg"
